@@ -26,11 +26,24 @@ Opération impliquant une entrée ou une sortie de carburant.
 
 ### Index pompe
 
-*Définition à compléter.*
+Valeur numérique affichée par le compteur de distribution de carburant. L'écart entre deux index permet de déterminer le volume théorique distribué durant une période donnée.
+
+### Location
+
+Site opérationnel.
+
+Exemples :
+
+- Tshikapa
+- Kananga
+
+### Movement Type
+
+Catégorie de mouvement enregistrée pour une Fuel Transaction (réception, distribution, transfert, correction).
 
 ### Odomètre
 
-*Définition à compléter.*
+Compteur kilométrique d'un véhicule indiquant la distance totale parcourue. Utilisé pour calculer les indicateurs de consommation (litres par kilomètre).
 
 ### Stock Physique
 
@@ -39,6 +52,12 @@ Stock réellement observé dans le réservoir.
 ### Stock Théorique
 
 Stock calculé à partir des mouvements enregistrés.
+
+### Tank Measurement
+
+Enregistrement combinant deux opérations de mesure réalisées lors d'un relevé : la mesure physique du niveau de carburant (Dipstick) et le relevé des index de compteur de pompe (Index pompe).
+
+Correspond à la table `raw_tank_measurements` du modèle de données.
 
 ## Rôles / Acteurs
 
@@ -52,9 +71,19 @@ Utilisateur chargé de l'enregistrement des transactions carburant et du suivi o
 
 ## Termes techniques
 
+### ADR (Architecture Decision Record)
+
+Document qui enregistre une décision d'architecture importante, son contexte, les alternatives envisagées et ses conséquences.
+
 ### Data Mart
 
-*Définition à compléter.*
+Sous-ensemble spécialisé du Data Warehouse destiné à répondre à un besoin analytique spécifique.
+
+Exemple :
+
+- Consommation carburant
+- Contrôle des stocks
+- Analyse des actifs
 
 ### Data Warehouse
 
@@ -70,15 +99,15 @@ Indicateur Clé de Performance.
 
 ### RAW
 
-*Définition à compléter.*
+Zone de stockage contenant les données importées sans modification ni transformation. Elle constitue la copie fidèle des données sources.
 
 ### Staging
 
-*Définition à compléter.*
+Zone intermédiaire utilisée pour nettoyer, contrôler et normaliser les données avant leur intégration dans le Data Warehouse.
 
 ### Star Schema
 
-*Définition à compléter.*
+Modèle dimensionnel composé d'une table de faits centrale reliée à plusieurs tables de dimensions. Optimisé pour les analyses et les outils de Business Intelligence.
 
 ## Projet & Processus
 
