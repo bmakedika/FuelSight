@@ -56,17 +56,7 @@ Transformer les données carburant en intelligence opérationnelle afin de facil
 
 ## Architecture cible
 
-Google Sheets
-↓
-Export CSV
-↓
-PostgreSQL RAW
-↓
-PostgreSQL STAGING
-↓
-Data Warehouse
-↓
-Power BI
+Google Sheets → Export CSV → PostgreSQL RAW → PostgreSQL STAGING → Data Warehouse → Power BI
 
 ## Fonctionnalités prévues
 

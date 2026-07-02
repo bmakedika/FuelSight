@@ -10,18 +10,11 @@ Documenter l'architecture technique et fonctionnelle de FuelSight.
 
 ### Architecture globale
 
-Google Sheets
-→ CSV
-→ PostgreSQL
-→ Power BI
+Google Sheets → CSV → PostgreSQL → Power BI
 
 ### Architecture ELT
 
-Source
-→ Raw
-→ Staging
-→ Data Warehouse
-→ Data Mart
+Source → Raw → Staging → Data Warehouse → Data Mart
 
 ### Modèle de données
 
