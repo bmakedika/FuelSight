@@ -55,7 +55,7 @@ Stock calculé à partir des mouvements enregistrés.
 
 ### Tank Measurement
 
-Enregistrement combinant deux opérations de mesure réalisées lors d'un relevé : la mesure physique du niveau de carburant (Dipstick) et le relevé des index de compteur de pompe (Index pompe).
+Enregistrement combinant trois éléments réalisés lors d'un relevé : la mesure physique du niveau de carburant (Dipstick), le relevé des index de compteur de pompe (Index pompe), et le calcul d'écart éventuel entre stock théorique et stock physique.
 
 Correspond à la table `raw_tank_measurements` du modèle de données.
 
@@ -67,7 +67,11 @@ Responsable de la gestion opérationnelle de la flotte et du suivi des ressource
 
 ### Fuel Operator
 
-Utilisateur chargé de l'enregistrement des transactions carburant et du suivi opérationnel des mouvements de stock.
+Personne responsable de la distribution du carburant ; également chargée de l'enregistrement des transactions et du suivi opérationnel des mouvements de stock.
+
+### Receiver
+
+Personne qui réceptionne ou atteste la quantité de carburant distribuée (chauffeur, vigile, réceptionnaire, ou toute personne chargée de confirmer l'opération).
 
 ## Termes techniques
 

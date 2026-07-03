@@ -191,29 +191,7 @@ Indicateurs :
 
 # Règles Métier
 
-## RM-001
-
-Une transaction doit appartenir à un seul type de mouvement.
-
-## RM-002
-
-La quantité doit être supérieure à zéro.
-
-## RM-003
-
-Un asset doit exister dans le référentiel.
-
-## RM-004
-
-Toute correction doit être historisée.
-
-## RM-005
-
-Les données RAW ne peuvent jamais être modifiées.
-
-## RM-006
-
-Les dimensions sont alimentées uniquement depuis les données validées.
+Voir `business_rules.md` pour le détail complet des règles (RM-001 à RM-008).
 
 ---
 
