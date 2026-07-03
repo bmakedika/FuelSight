@@ -123,3 +123,171 @@ Applicable :
 
 Description :
 Commentaire libre.
+
+---
+
+## Fuel Operator
+
+### fuel_operator_id
+
+Description :
+Identifiant unique de l'opérateur carburant.
+
+Type :
+INTEGER
+
+---
+
+### fuel_operator_name
+
+Description :
+Nom complet de l'opérateur carburant.
+
+Type :
+VARCHAR(100)
+
+---
+
+## Receiver
+
+### receiver_id
+
+Description :
+Identifiant unique du réceptionnaire.
+
+Type :
+INTEGER
+
+---
+
+### receiver_name
+
+Description :
+Nom complet de la personne attestant ou réceptionnant le carburant.
+
+Type :
+VARCHAR(100)
+
+---
+
+## Location
+
+### location_id
+
+Description :
+Identifiant unique du site opérationnel.
+
+Type :
+INTEGER
+
+---
+
+### location_name
+
+Description :
+Nom du site opérationnel.
+
+Type :
+VARCHAR(100)
+
+Exemples :
+
+- Tshikapa
+- Kananga
+
+---
+
+## Movement Type
+
+### movement_type_id
+
+Description :
+Identifiant unique du type de mouvement.
+
+Type :
+INTEGER
+
+---
+
+### movement_type_name
+
+Description :
+Nature du mouvement carburant.
+
+Type :
+VARCHAR(50)
+
+Valeurs :
+
+- RECEPTION
+- DISTRIBUTION
+- TRANSFER
+- CORRECTION
+
+---
+
+## Tank Measurement
+
+### measurement_id
+
+Description :
+Identifiant unique du relevé de réservoir.
+
+Type :
+UUID
+
+---
+
+### measurement_date
+
+Description :
+Date du relevé.
+
+Type :
+DATE
+
+---
+
+### tank_level_cm
+
+Description :
+Mesure physique du niveau du carburant.
+
+Type :
+NUMERIC(10,2)
+
+Unité :
+Centimètre
+
+---
+
+### physical_stock_l
+
+Description :
+Volume réellement présent dans le réservoir.
+
+Type :
+NUMERIC(10,2)
+
+Unité :
+Litre
+
+---
+
+### index_start
+
+Description :
+Index de pompe au début de la période.
+
+Type :
+NUMERIC(10,2)
+
+---
+
+### index_end
+
+Description :
+Index de pompe à la fin de la période.
+
+Type :
+NUMERIC(10,2)
