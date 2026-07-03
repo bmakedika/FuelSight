@@ -9,11 +9,10 @@
 - asset_type
 - location_id
 
-### users
+### fuel_operators
 
-- user_id
-- user_name
-- role
+- fuel_operator_id
+- fuel_operator_name
 
 ### receivers
 
@@ -39,7 +38,8 @@
 - transaction_id
 - transaction_date
 - asset_id
-- user_id
+- fuel_operator_id
+- receiver_id
 - movement_type_id
 - quantity_liters
 - odometer
