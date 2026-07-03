@@ -7,7 +7,7 @@ Colonnes :
 - Date
 - Asset Code
 - Asset Type
-- Receivers
+- Receiver
 - Quantity Liters
 - Odometer
 - Hourmeter
@@ -35,7 +35,8 @@ Colonnes :
 Contient :
 
 - Assets
-- Operators
+- Fuel Operators
+- Receivers
 - Locations
 - Movement Types
 
