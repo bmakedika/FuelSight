@@ -47,7 +47,6 @@ Rôles :
 
 - Fuel Operator
 - Fleet Manager
-- Administrator
 
 ---
 
