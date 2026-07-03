@@ -21,11 +21,13 @@ Centraliser les artefacts de visualisation Power BI de FuelSight, organisés par
 - Litres distribués par véhicule
 - Litres distribués par camion
 - Litres distribués par générateur
+- Volumes reçus, distribués et transférés (par type de mouvement)
 
 ### Dashboard Contrôle
 
-- Écarts physiques
-- Anomalies de consommation
+- Écart de stock journalier
+- Historique du stock
+- Anomalies de consommation (alertes)
 - Écarts d'index
 
 ### Dashboard Tendance
@@ -33,6 +35,13 @@ Centraliser les artefacts de visualisation Power BI de FuelSight, organisés par
 - Consommation mensuelle
 - Projection de rupture de stock
 - Évolution des distributions
+
+## Filtres globaux
+
+- Date
+- Asset
+- Asset Type
+- Location
 
 ## Contenu attendu
 
