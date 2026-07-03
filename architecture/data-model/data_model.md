@@ -91,15 +91,25 @@ Attributs :
 
 ---
 
-## dim_user
+## dim_fuel_operator
 
-Référentiel des utilisateurs.
+Référentiel des opérateurs carburant.
 
 Attributs :
 
-- user_id
-- user_name
-- role
+- fuel_operator_id
+- fuel_operator_name
+
+---
+
+# dim_receiver
+
+Référentiel des réceptionnaires.
+
+Attributs :
+
+- receiver_id
+- receiver_name
 
 ---
 
@@ -126,11 +136,17 @@ Mesures :
 
 Clés :
 
-- date_id
+date_id
 - asset_id
-- user_id
+- fuel_operator_id
+- receiver_id
 - location_id
 - movement_type_id
+
+Mesures complémentaires :
+
+- odometer
+- hourmeter
 
 ---
 
