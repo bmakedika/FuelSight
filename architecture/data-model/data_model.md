@@ -136,7 +136,7 @@ Mesures :
 
 Clés :
 
-date_id
+- date_id
 - asset_id
 - fuel_operator_id
 - receiver_id
