@@ -2,43 +2,35 @@
 
 ## Objectif
 
-Décrire les fonctionnalités de FuelSight.
+Vue narrative des fonctionnalités de FuelSight, organisée par domaine métier. Pour le détail traçable (priorité, version, User Stories associées), voir [`functional_requirements.md`](../requirements/functional_requirements.md) - ce document décrit le même périmètre sous une forme descriptive, structurée autour des mêmes identifiants `FR-XXX` pour éviter toute numérotation parallèle.
 
 ---
 
-# Module 1 - Collecte
+# Collecte & Transactions (FR-001, FR-003)
 
-Fonctions
-
-- Saisie des transactions
-- Validation
+- Saisie des transactions (réceptions, distributions, transferts, corrections)
+- Validation des données à la saisie
 - Export CSV
 
 ---
 
-# Module 2 - Pipeline ELT
-
-Fonctions
+# Pipeline ELT (FR-001, FR-002)
 
 - Chargement RAW
-- Nettoyage STAGING
+- Nettoyage et validation STAGING
 - Chargement Data Warehouse
 
 ---
 
-# Module 3 - Gestion des stocks
-
-Fonctions
+# Gestion des stocks (FR-004)
 
 - Stock théorique
 - Stock physique
-- Écarts
+- Contrôle des écarts
 
 ---
 
-# Module 4 - Reporting
-
-Fonctions
+# Reporting (FR-005)
 
 - Dashboard exécutif
 - Dashboard consommation
@@ -46,20 +38,16 @@ Fonctions
 
 ---
 
-# Module 5 - Qualité
+# Qualité des données (FR-006)
 
-Fonctions
-
-- Détection doublons
-- Contrôle kilométrage
-- Contrôle index
+- Détection des doublons
+- Contrôle du kilométrage
+- Contrôle des index
 
 ---
 
-# Module 6 - Administration
+# Administration (FR-007 - hors V1)
 
-Fonctions futures
-
-- Authentification
-- Gestion utilisateurs
-- Audit
+- Audit - V2
+- Authentification - V3
+- Gestion des utilisateurs - V3
