@@ -71,3 +71,11 @@ Règle : Le kilométrage (odometer) d'un véhicule doit être supérieur ou éga
 Nom : Contrôle index
 
 Règle : L'index de pompe (pump index) doit être croissant entre deux relevés.
+
+---
+
+## RM-009
+
+Nom : Unicité des transactions
+
+Règle : Une transaction ne doit pas constituer un doublon d'une transaction déjà enregistrée (même date, même asset, même quantité, même type de mouvement).
